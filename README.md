@@ -6,5 +6,5 @@ Nginx as reverse proxy using Redis
 docker compose up -d --build
 
 # Connect to Nginx using Redis cli
-redis-cli -h localhost -p 16379
+redis-cli -p 16379
 ```
